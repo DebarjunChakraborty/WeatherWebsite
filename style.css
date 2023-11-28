@@ -6,7 +6,7 @@
   font-family: 'Open Sans', sans-serif;
 }
 body {
-  background: green
+  background: green;
 }
 h1 {
   background: #72bcd4;
@@ -112,4 +112,39 @@ h1 {
 .weather-cards .card img {
   max-width: 70px;
   margin: 5px 0 -12px 0;
+}
+
+.adv-text{
+  margin: 30px 40px;
+}
+
+/* Crops Section */
+.crops{
+  width: 95%;
+  height: 180px;
+  background:#72bcd4;
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+  margin-bottom: 25px;
+  margin-left: 40px;
+}
+
+.crops>img{
+  width: 200px;
+  height: 200px;
+  padding: 20px;
+  border-radius: 30px;
+}
+
+.crops .text{
+  margin: 50px;
+}
+
+.crops .text>h1{
+  text-align: left;
+}
+
+.crops .text>p{
+  font-size: 18px;
 }
